@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("../images/网站背景.png");
+}
+.symbol{
+    height: 40px;
+    width: 90px;
+    float:left;
+}
+.guide{
+    font-family: 幼圆;
+    font-weight: 900;
+    height: 40px;
+    color: rgb(236, 174, 174);
+    background-color: rgb(255, 255, 255);
+    margin: 0 0 30 0;
+}
+.guider{
+    padding-top: 10px;
+}
+.footer{
+    background-color: rgb(236, 174, 174);
+    font-size: larger;
+    height: 40px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-family: 幼圆;
+    font-weight: 800;
+    font-size: smaller;
+}
+.text{
+    margin-top: 10px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+}
+a{
+    text-decoration: none;
+}
+.photos{
+    padding-left:75px;
+    margin:0 auto;
+    width: 1200px;
+    height: 900px;
+    padding-top:20px;
+}
+.photo1{
+    background-color: aliceblue;
+    width: 325px;
+    height: 800px;
+    float: left;
+    font-family: 幼圆;
+    font-weight: bolder;
+    border-style:outset;
+    margin: 0 15 0 0;
+    overflow: hidden;/*用于隐藏超出展示容器的内容部分*/
+}
+.display1{
+    height:500px;
+    width: 325px;
+}
+.shape1{
+    margin: 5 5 5 5;
+    width: 200px;
+    height: 150px;
+}
+.shape2{
+    float: right;
+    margin: 5 5 5 5;
+    width: 200px;
+    height: 150px;
+}
+.display2{
+    height: 300px;
+    width:3400px;
+    margin:0px auto;
+    animation: 30s pics linear;
+    font-size:0px;/*消除图片间隔*/
+    animation-iteration-count:infinite;/*设置图片无限次循环滚动播放*/
+}
+.display2 img{
+    width:425px;
+    height:300px;
+    float:left;/*开启浮动*/
+}
+.photo2{
+    background-color: aliceblue;
+    width: 425px;
+    height: 800px;
+    float: left;
+    font-family: 幼圆;
+    font-weight: bolder;
+    border-style:outset;
+    margin: 0 15 0 0;
+    overflow: hidden;/*用于隐藏超出展示容器的内容部分*/
+    text-align: center;
+    font-size:x-large;
+}
+.feeling{
+    margin: 25 45 25 45;
+    font-size:medium;
+    color:rgb(133, 74, 2);
+    line-height: 1.5;
+}
+.square{
+    width:300px;
+    border-style:dashed;
+    margin:50 0 30 60;
+    border-color:rgb(155, 114, 51);
+    border-radius: 15%;
+}
+.photo3{
+    background-color: aliceblue;
+    width: 325px;
+    height: 800px;
+    float: left;
+    font-family: 幼圆;
+    font-weight: bolder;
+    border-style:outset;
+    margin: 0 15 0 0;
+    overflow: hidden;/*用于隐藏超出展示容器的内容部分*/
+}
+@keyframes pics {/*动画效果实现的主要控制函数，0%-20%是播放下一个图片，0%-10%是图片暂停的时间*/
+    0%,10%{
+        transform: translateX(0px);
+    }
+    15%,25%{
+        transform: translateX(-425px);
+    }
+    30%,40%{
+        transform: translateX(-850px);
+    }
+    45%,55%{
+        transform:translateX(-1275px);
+    }
+    60%,70%{
+        transform:translateX(-1700px);
+    }
+    75%,85%{
+        transform:translateX(-2125px);
+    }
+    90%,100%{
+        transform:translateX(-2550px)
+    }
+    105%,115%{
+        transform:translateX(-2975px);
+    }
+}

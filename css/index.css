@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("../images/网站背景.png");
+}
+
+.welcome{
+    height: 60px;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    margin:  0 0 20 0;
+    text-align: center;
+    font-family: 幼圆;
+    background-color: rgb(236, 174, 174);
+    font-weight:bolder;
+    border-color: aliceblue;
+}
+h1{
+    color:rgb(255, 255, 255);
+}
+p{
+    color:rgb(100, 73, 32);
+}
+.introduce{
+    background-color: aliceblue;
+    margin:0 auto;
+    width: 600px;
+    height: 375px;
+    font-family: 幼圆;
+    font-weight: bolder;
+    border-style:outset;
+}
+.firstline{
+    height:25px;
+    padding: 20 0 20 20;
+    background-color: rgb(236, 174, 174);
+    font-size: larger;
+}
+a {
+  color:aliceblue;
+}
+.text{
+    color:rgb(100, 73, 32);
+    text-align: left;
+    margin-left:10px;
+    margin-right:5px;
+    line-height: 1.5;
+}
+.gif{
+    text-align: right;
+    margin-top: 0;
+    height:120px;
+}
+.redcat{
+    width: 120px;
+    height: 120px;
+    border-style:outset;
+    border-color: rgb(245, 215, 215);
+    margin-right: -30px;
+    margin-top:-70px;
+}
+.buttons{
+    width: 100px;
+    position: relative;
+    top: -470px;
+    left: -105px;
+    text-align: center;
+    color:rgb(126, 91, 40);
+}
+.icon{
+    color:rgb(126, 91, 40);
+    width: 50px;
+    height: 50px;
+    border-style:outset;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(236, 174, 174);
+    border-radius: 50%;
+}
+.beauty{
+    color:rgb(126, 91, 40);
+    height:40px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 30%;
+    cursor: pointer;
+    border-style:outset;
+    border-color: rgb(255, 255, 255);
+}
+.habits{
+    color:rgb(126, 91, 40);
+    height:40px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 30%;
+    cursor: pointer;
+    border-style:outset;
+    border-color: rgb(255, 255, 255);
+}
+.comic{
+    color:rgb(126, 91, 40);
+    height:40px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 30%;
+    cursor: pointer;
+    border-style:outset;
+    border-color: rgb(255, 255, 255);
+}
+.footer{
+    background-color: rgb(236, 174, 174);
+    font-size: larger;
+    height: 40px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-family: 幼圆;
+    font-weight: 800;
+    font-size: smaller;
+}
+.text2{
+    color:white;
+    margin-top: 10px;
+}
+.text3{
+    color:white;
+}

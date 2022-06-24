@@ -1,0 +1,122 @@
+body{
+    background-image:url("../images/网站背景.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0;
+}
+.symbol{
+    height: 40px;
+    width: 90px;
+    float:left;
+}
+.guide{
+    font-family: 幼圆;
+    font-weight: 900;
+    height: 40px;
+    color: rgb(236, 174, 174);
+    background-color: rgb(255, 255, 255);
+    margin: 0 0 30 0;
+}
+.guider{
+    padding-top: 10px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+}
+a{
+    text-decoration: none;
+}
+.topic{
+    text-align: center;
+    color: rgb(193, 90, 90);
+    font-size: x-large;
+    margin-bottom: 20px;
+    margin-top: -5px;
+    font-weight: 1000;
+    font-family: 幼圆;
+}
+.tform{
+    text-align: center;
+    background-color: white;
+    margin:0 auto;
+    width: 850px;
+    height: 600px;
+    border-width:5px;
+	border-style:solid dashed;
+	border-color:rgb(193, 90, 90);
+}
+.surface{
+    width: 50%;
+    height:50%;
+}
+.footer{
+    background-color: rgb(236, 174, 174);
+    font-size: larger;
+    height: 40px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-family: 幼圆;
+    font-weight: 800;
+    font-size: smaller;
+}
+.text{
+    margin-top: 10px;
+}
+.table{
+    width:150px;
+    height:200px;
+    position: fixed;
+    bottom:30%;
+    margin-left:20px;
+    border-style:dashed;
+    color:rgb(39, 30, 15);
+    margin-bottom: -10px;
+    border-color: rgb(193, 90, 90);
+    background-color: bisque;
+}
+.gif{
+    text-align: right;
+    margin-top: 0;
+    height:120px;
+    position: fixed;
+    bottom:5%;
+    right:0;
+}
+.redcat{
+    width: 120px;
+    height: 120px;
+    border-style:outset;
+    border-color: rgb(245, 215, 215);
+    margin-top:-70px;
+    position: fixed;
+    bottom:5%;
+    right:0;
+}
+.but1{
+    position:relative;
+    margin:0 10 20 20;
+    float: left;
+}
+.but2{
+    position:relative;
+    margin:0 20 20 10;
+    float: left;
+}
+.words{
+    width:130px;
+    height:40px;
+    margin:0 5 10 10;
+}
+p{
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.recommendation{
+    margin-bottom:80px;
+}

@@ -1,0 +1,188 @@
+body{
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("../images/网站背景.png");
+}
+.symbol{
+    height: 40px;
+    width: 90px;
+    float:left;
+}
+.guide{
+    font-family: 幼圆;
+    font-weight: 900;
+    height: 40px;
+    color: rgb(236, 174, 174);
+    background-color: rgb(255, 255, 255);
+    margin: 0 0 30 0;
+    margin-bottom:-30px;
+}
+.guider{
+    padding-top: 10px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+}
+a{
+    text-decoration: none;
+}
+.entire{
+    margin:0 auto;
+    width:1250px;
+    height:900px;
+    margin-bottom:-80px;
+}
+.area{
+    float:left;
+    width:300px;
+    /*margin-left: 30px;*/
+    height: 800px;
+    position: relative;
+    margin-top:50px;
+
+}
+.area3{
+    float:left;
+    width:370px;
+    /*margin-left: 30px;*/
+    height: 800px;
+    position: relative;
+    margin:0 70 0 70;
+}
+.area3-3{
+    position:relative;
+    width: 370px;
+    height:400px;
+    background-color: rgb(255, 255, 255);
+    top:250px;
+    text-align: center;
+    border-style:outset;
+}
+.area1{
+    font-style: 幼圆;
+    width: 300px;
+    height:300px;
+    margin: 70 0 70 0;
+    background-color: rgb(255, 255, 255);
+    border-style:outset;
+}
+.area2{
+    font-style: 幼圆;
+    width: 300px;
+    height:300px;
+    margin:50 0 50 0;
+    background-color: rgb(255, 255, 255);
+    border-style:outset;
+}
+.center{
+    width:140px;
+    height:185px;
+    margin:5 5 5 5 ;
+}
+.pict1{
+    width:300px;
+    height:200px;
+}
+.pict2{
+    width:165px;
+    height:215px;
+}
+.pict3{
+    width: 150px;
+    height:100px;
+}
+.pict4{
+    width: 150px;
+    height:100px;
+    float: right;
+}
+.pict5{
+    width:300px;
+    height:150px;
+}
+.pict6{
+    width:180px;
+    height:150px;
+}
+.pict7{
+    width:100;
+    height:150;
+    float: right;
+}
+.footer{
+    background-color: rgb(236, 174, 174);
+    font-size: larger;
+    height: 40px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-family: 幼圆;
+    font-weight: 800;
+    font-size: smaller;
+}
+.text{
+    margin-top: 10px;
+}
+.back{
+    font-family: 幼圆;
+    background-color: rgb(255, 255, 255);
+    width:900px;
+    height:230px;
+    margin:0 auto;
+    position: sticky;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    line-height: 1.5;
+    border-style:outset;
+    border-style: double;
+    margin-bottom: 100px;
+    color:rgb(105, 77, 34);
+    font-weight: 600;
+    border-radius: 15%;
+}
+.p1{
+    color:rgb(79, 59, 28);
+    padding-top:10px;
+    width:135px;
+    float: right;
+}
+.p2{
+    color:rgb(79, 59, 28);
+    padding-top:30px;
+    width:115px;
+    float: right;
+}
+.p3{
+    color:rgb(79, 59, 28);
+    padding-top:10px;
+    padding-left: 10px;
+    width:135px;
+    float: left;
+}
+.p4{
+    color:rgb(79, 59, 28);
+    padding-top:35px;
+    padding-left: 40px;
+    width:135px;
+    float: left;
+}
+.guess{
+    color:rgb(79, 59, 28);
+    font-family: 幼圆;
+    font-weight: 600;
+    font-size: xx-large;
+    position: static;
+    top:250px;
+    left:150px;
+    width:300px;
+    height:100px;
+    margin:300 0 -300 120;
+
+}
